@@ -103,12 +103,14 @@ console.log(lovesToPlay && lovesTreats)
 
 
 // Determine if the dog loves to play and loves the dog park
+console.log(lovesToPlay && lovesDogPark)
 
 
 // Determine if the dog loves to play or loves the dog park
-
+console.log(lovesToPlay || lovesDogPark )
 
 // Determine if the dog loves to play and is a puppy
+console.log(lovesToPlay && age <= 1)
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
-// ANSWER:
+// ANSWER: true; because is a puppy was entered as age <= 1

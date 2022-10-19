@@ -18,12 +18,14 @@ if (weather === "sunny") {
 } else if (weather === "rainy") {
   console.log("umbrella");
 } else if (weather === "snowy") {
-  console.log("coat");
+  console.log("hat");
 } else if (weather === "icy") {
   console.log("yak traks");
 } else {
   console.log("good to go!");
 }
+
+
 
 // Experiment with manipulating the value held in variable 'weather'
 // to print something other than 'coat'
@@ -43,9 +45,11 @@ if (weather === "sunny") {
 // to make sure both conditions can be achieved.
 
 var numQuarters = 0
-
+if (numQuarters >= 2) {
 console.log("I have enough money for a gumball");
+} else {
 console.log("I don't have enough money for a gumball");
+}
 
 
 // #####################
@@ -65,3 +69,12 @@ console.log("I don't have enough money for a gumball");
 var cupsOfFlour = 1;
 var hasSauce = true;
 
+if (cupsOfFlour === 1 && hasSauce === true) {
+  console.log("I cannot make pizza");
+} else if (cupsOfFlour === 5 && hasSauce === false) {
+  console.log("I cannot make pizza")
+} else if (cupsOfFlour === 2 && hasSauce === true) {
+  console.log("I can make pizza")
+} else if (cupsOfFlour === 3 && hasSauce === true) {
+  console.log("I can make pizza")
+} 
