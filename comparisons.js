@@ -44,9 +44,12 @@ console.log(numberStudents >= 21)
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 20?
 // this should log: true
+console.log(numberStudents <= 20)
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 21?
 // this should log: true
+console.log(numberStudents <= 21)
+
 
 
 // #-------------------
@@ -59,21 +62,21 @@ console.log(numberStudents >= 21)
 // Make sure YOU can explain it that way!
 
 console.log(4 < 9);
-// YOU DO: Explain.
+// YOU DO: Explain. Print the result of comparison: is 4 less than 9; true
 
 var books = 3;
 console.log(4 < books);
-// YOU DO: Explain.
+// YOU DO: Explain. Print the result of the comparison: is 4 less than the number of books; false
 
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
-// YOU DO: Explain.
+// YOU DO: Explain. Print the result of the comparison: is number of friends greater than number of siblings; true
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
-// YOU DO: Explain.
+// YOU DO: Explain. Print the result of the comparison: is the number of attendess not equal to the number of meals; true
 
 
 // #-------------------
@@ -96,6 +99,7 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
+console.log(lovesToPlay && lovesTreats)
 
 
 // Determine if the dog loves to play and loves the dog park
